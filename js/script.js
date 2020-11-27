@@ -44,15 +44,15 @@ $(document).ready(
 // console.log(nameSurname);
 
 // 3 - Dare la possibilità all’utente attraverso 3 prompt di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
-var userName = prompt("Inserisci il nome");
-var userSurname = prompt("Inserisci il cognome");
-var userAge = prompt("Inserisci l'età");
+    var userName = prompt("Inserisci il nome");
+    var userSurname = prompt("Inserisci il cognome");
+    var userAge = prompt("Inserisci l'età");
 
-var student = {
-  name : userName,
-  surname : userSurname,
-  age : userAge
-};
-console.log(student);
+    var student = {
+      name : userName,
+      surname : userSurname,
+      age : userAge
+    };
+    console.log(student);
   }
 );
